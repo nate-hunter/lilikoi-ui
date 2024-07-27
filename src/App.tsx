@@ -1,4 +1,5 @@
-import { Button } from './components/Buttons';
+// import { Button } from './components/Buttons';
+import { Button } from 'lilikoi-ui';
 
 function App() {
     return (
