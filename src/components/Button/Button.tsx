@@ -12,7 +12,7 @@ type ButtonStyleProps = {
 
 type ButtonProps = React.ComponentPropsWithoutRef<'button'> & Partial<ButtonStyleProps>;
 
-const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
+export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ({ children, variant = 'default', isOutlined = false, borderColor = 'deeppink', ...props }, ref) => {
     const demoButton: React.CSSProperties = {
       borderRadius: '4px',
@@ -77,5 +77,3 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     );
   },
 );
-
-export default Button;
