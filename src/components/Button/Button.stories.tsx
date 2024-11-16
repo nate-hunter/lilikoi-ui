@@ -13,5 +13,7 @@ type Story = StoryObj<typeof Button>;
 export const Default: Story = {
   args: {
     children: 'Lilikoi Button',
+    variant: 'default',
+    mode: 'on-light',
   },
 };
