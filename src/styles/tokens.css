@@ -1,0 +1,177 @@
+/* ---- COLOR PRIMITIVES (Updated 2024-10) ---- */
+:root {
+  /* NEUTRAL */
+  --color-neutral-0: #ffffff;
+  --color-neutral-50: #fbfbfb;
+  --color-neutral-75: #f4f5f7;
+  --color-neutral-100: #ced2d9;
+  --color-neutral-150: #c8c8c8;
+  --color-neutral-200: #b5bbc6;
+  --color-neutral-300: #9da5b3;
+  --color-neutral-400: #6e6e6e;
+  --color-neutral-700: #3b3b3b;
+  --color-neutral-800: #242424;
+  --color-neutral-850: #1e1e1e;
+  --color-neutral-1000: #000000;
+  /* DEFAULT */
+  --color-default-d50: #eaebec;
+  --color-default-d50-opacity-00: hsla(210, 5%, 92%, 0);
+  --color-default-d50-opacity-20: hsla(210, 5%, 92%, 0.2);
+  --color-default-d50-opacity-25: hsla(210, 5%, 92%, 0.25);
+  --color-default-d50-opacity-09: hsla(210, 5%, 92%, 0.09);
+  --color-default-d50-opacity-10: hsla(210, 5%, 92%, 0.1);
+  --color-default-d50-opacity-27: hsla(210, 5%, 92%, 0.27);
+  --color-default-d50-opacity-40: hsla(210, 5%, 92%, 0.4);
+  --color-default-d50-opacity-50: hsla(210, 5%, 92%, 0.5);
+  --color-default-d50-opacity-60: hsla(210, 5%, 92%, 0.6);
+  --color-default-d50-opacity-73: hsla(210, 5%, 92%, 0.73);
+  --color-default-d50-opacity-75: hsla(210, 5%, 92%, 0.75);
+  --color-default-75: #a8abb0;
+  --color-default-d100: #bdbfc3;
+  --color-default-d200: #9da1a7;
+  --color-default-d300: #70767e;
+  --color-default-d300-opacity-00: rgba(112 118 126 / 0);
+  --color-default-d300-opacity-09: rgba(112 118 126 / 0.09);
+  --color-default-d300-opacity-10: rgba(112 118 126 / 0.1);
+  --color-default-d300-opacity-20: rgba(112 118 126 / 0.2);
+  --color-default-d300-opacity-25: rgba(112 118 126 / 0.25);
+  --color-default-d300-opacity-27: rgba(112 118 126 / 0.27);
+  --color-default-d300-opacity-40: rgba(112 118 126 / 0.4);
+  --color-default-d300-opacity-50: rgba(112 118 126 / 0.5);
+  --color-default-d300-opacity-60: rgba(112 118 126 / 0.6);
+  --color-default-d300-opacity-73: rgba(112 118 126 / 0.73);
+  --color-default-d300-opacity-75: rgba(112 118 126 / 0.75);
+  --color-default-d400: #555b65;
+  --color-default-d500: #2a323f;
+  --color-default-d500-opacity-09: rgba(42 50 63 / 0.09);
+  --color-default-d500-opacity-10: rgba(42 50 63 / 0.1);
+  --color-default-d500-opacity-20: rgba(42 50 63 / 0.2);
+  --color-default-d500-opacity-25: rgba(42 50 63 / 0.25);
+  --color-default-d500-opacity-27: rgba(42 50 63 / 0.27);
+  --color-default-d500-opacity-40: rgba(42 50 63 / 0.4);
+  --color-default-d500-opacity-50: rgba(42 50 63 / 0.5);
+  --color-default-d500-opacity-60: rgba(42 50 63 / 0.6);
+  --color-default-d500-opacity-73: rgba(42 50 63 / 0.73);
+  --color-default-d500-opacity-75: rgba(42 50 63 / 0.75);
+  --color-default-d600: #262e39;
+  --color-default-d700: #1e242d;
+  --color-default-d800: #171c23;
+  --color-default-d900: #12151a;
+  /* LILIKOI (PRIMARY) */
+  --color-lilikoi-50: #f4f2ff;
+  --color-lilikoi-55: #efecff;
+  --color-lilikoi-60: #ded7ff;
+  --color-lilikoi-75: #d3cbff;
+  --color-lilikoi-100: #c1b5ff;
+  --color-lilikoi-200: #a695ff;
+  --color-lilikoi-300: #947fff;
+  --color-lilikoi-400: #8572e6;
+  --color-lilikoi-450: #7666cc;
+  --color-lilikoi-500: #6f5fbf;
+  --color-lilikoi-550: #6859b3;
+  --color-lilikoi-600: #5a4d9c;
+  --color-lilikoi-650: #594c99;
+  --color-lilikoi-700: #433973;
+  --color-lilikoi-800: #342c59;
+}
+
+/* APP TOKENS (Updated 2024-10) */
+:root {
+  --color-default: var(--color-default-d300);
+  --color-lilikoi: var(--color-lilikoi-300);
+
+  /* ---- SURFACE ---- */
+  /* LIGHT MODE */
+  --surface-light: var(--color-neutral-50);
+  --surface-light-alt: var(--color-neutral-75);
+  /* DARK MODE */
+  --surface-dark: var(--color-neutral-800);
+  --surface-dark-alt: var(--color-neutral-850);
+
+  /* ---- BORDER ---- */
+  /* ON LIGHT */
+  --border-on-light: var(--color-neutral-400);
+  /* ON DARK */
+  --border-on-dark: var(--color-neutral-700);
+
+  /* ---- FONT ---- */
+  --font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-family-number: ui-monospace, menlo, monospace;
+  --font-family-heading: var(--font-family);
+  --font-size-xxs: 0.6875rem;
+  --font-size-xs: 0.8125rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-weight-default: normal;
+  --font-weight-semi-bold: 500;
+  --font-weight-bold: 700;
+  --font-weight-extra-bold: 900;
+  --font-weight-heading: var(--font-weight-bold);
+  --font-weight-heading-bold: var(--font-weight-extra-bold);
+  /* ON LIGHT */
+  --font-on-light: var(--color-default-d900);
+  --font-on-light-alt-1: var(--color-default-d800);
+  --font-on-light-alt-2: var(--color-neutral-800);
+  --font-on-light-disabled: var(--color-neutral-700);
+  /* ON DARK */
+  --font-on-dark: var(--color-neutral-0);
+  --font-on-dark-alt-1: var(--color-neutral-150);
+  --font-on-dark-disabled: var(--color-neutral-400);
+  --font-on-dark-alt-2: var(--color-neutral-300);
+
+  /* ---- GENERAL ---- */
+  /* LAYOUT */
+  --topbar-size-y: 55px;
+  --sidebar-size-x-full: 240px;
+  --sidebar-size-x-closed: 48px;
+  /* OPACITY */
+  --opacity-disabled: 0.5;
+  /* BORDER RADIUS */
+  --border-straight: 4px;
+  --border-curved: 8px;
+  --border-rounded: 13px;
+  /* SHADOW */
+  --shadow: #00000030 0px 0px 10px 0px;
+
+  /* ---- BUTTON ---- */
+  --button-padding-sm: 4px 6px;
+  --button-padding-md: 6px 10px;
+  --button-padding-lg: 8px 12px;
+  --button-padding-xxl: 12px 16px;
+  --button-font-size-xs: var(--font-size-xxs);
+  --button-font-size-sm: var(--font-size-xxs);
+  --button-font-size-md: var(--font-size-xs);
+  --button-font-size-lg: var(--font-size-md);
+  --button-font-size-xxl: var(--font-size-lg);
+  --button-font-weight: var(--font-weight-semi-bold);
+  --button-border-radius: var(--border-straight);
+  /* VARIANT: DEFAULT */
+  /* ON LIGHT */
+  --button-default-bg-on-light-normal: var(--color-default-d500);
+  --button-default-bg-on-light-inverted: var(--color-default-d500-opacity-20);
+  --button-default-bg-on-light-transparent: var(--color-default-d500-opacity-00);
+  --button-default-fg-on-light-normal: var(--color-default-d50);
+  --button-default-fg-on-light-inverted: var(--color-default-d700);
+  --button-default-fg-on-light-transparent: var(--color-default-d700);
+  --button-default-border-on-light-normal: var(--button-default-bg-on-light-normal);
+  --button-default-border-on-light-inverted: var(--button-default-bg-on-light-inverted);
+  --button-default-bg-on-light-state-hovered: #ffffff;
+  --button-default-bg-on-light-state-focused: #ffffff;
+  --button-default-bg-on-light-state-pressed: #ffffff;
+  --button-default-bg-on-light-state-disabled: #ffffff;
+  /* ON DARK */
+  --button-default-bg-on-dark-normal: var(--color-default-d50);
+  --button-default-bg-on-dark-inverted: var(--color-default-d50-opacity-20);
+  --button-default-bg-on-dark-transparent: var(--color-default-d500-opacity-00);
+  --button-default-fg-on-dark-normal: var(--color-default-d900);
+  --button-default-fg-on-dark-inverted: var(--color-default-d50);
+  --button-default-fg-on-dark-transparent: var(--color-default-d50);
+  --button-default-border-on-dark-normal: var(--color-default-d50);
+  --button-default-border-on-dark-inverted: var(--button-default-border-on-dark-normal);
+  --button-default-border-on-dark-transparent: var(--border-on-dark);
+
+  /* VARIANT: LILIKOI / PRIMARY */
+  --button-lilikoi-bg-normal: var(--color-lilikoi);
+}

@@ -1,4 +1,10 @@
+@import './styles/tokens.css';
+
 :root {
+  --font-color-ondark-test: #fff;
+  --font-color-onlight-test: #1f2328;
+  --color-test: deeppink;
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   /* color-scheme: light dark; */
   /* color: rgba(255, 255, 255, 0.87); */
@@ -17,3 +23,12 @@
     background-color: #ffffff;
   }
 } */
+
+.test-outline {
+  outline: 3px solid deeppink;
+}
+
+.test-wrapper {
+  outline: 3px solid var(--color-test);
+  color: var(--color-test);
+}

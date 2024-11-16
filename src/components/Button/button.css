@@ -1,3 +1,26 @@
 .lilikoi-button {
   /* --button-color-bg: --button-color-fg: --button-color-border: --button-font-size-md: ; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 4px;
+  text-align: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+
+  /* transition: var(--transition-all-25); */
+  padding: var(--button-padding-md);
+  border-radius: var(--button-border-radius);
+  font-weight: var(--button-font-weight);
+  font-size: var(--button-font-size-md);
+}
+
+.lilikoi-button.button-variant-default.on-light {
+  background-color: var(--button-default-bg-on-light-normal);
+  color: var(--button-default-fg-on-light-normal);
+}
+
+.lilikoi-button.button-variant-default.on-dark {
+  background-color: var(--button-default-bg-on-dark-normal);
+  color: var(--button-default-fg-on-dark-normal);
 }
