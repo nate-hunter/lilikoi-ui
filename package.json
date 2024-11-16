@@ -11,8 +11,10 @@
     ".": {
       "import": "./dist/lilikoi-ui.js",
       "require": "./dist/lilikoi-ui.umd.cjs"
-    }
+    },
+    "./dist/style.css": "./dist/style.css"
   },
+  "sideEffects": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/nate-hunter/lilikoi-ui"
