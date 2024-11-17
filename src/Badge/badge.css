@@ -1,0 +1,14 @@
+.test-badge {
+  border-radius: 50px;
+  padding: 4px 8px;
+  width: fit-content;
+  text-align: center;
+  border: 1px solid var(--border-on-light);
+  color: var(--font-on-light);
+  font-size: 14px;
+}
+
+.test-badge.primary {
+  border: 1px solid deeppink;
+  color: deeppink;
+}
