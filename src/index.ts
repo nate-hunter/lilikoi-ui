@@ -1,3 +1,4 @@
 import './styles.css';
 
-export * from './components/Button';
+export { Badge } from './Badge';
+export { Button } from './components';
